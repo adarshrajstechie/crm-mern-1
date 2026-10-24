@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "echo 'Root build skipped. Catalyst will build frontend.'"
+    "build": "cd frontend && npm install && npm run build && cd .. && mkdir -p dist && cp -r frontend/dist/* dist/"
   },
   "devDependencies": {
     "autoprefixer": "^10.6.1",
