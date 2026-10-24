@@ -181,6 +181,7 @@ The content is organized as follows:
       45491730b7525fd25fe7875c6b7aa2fa67ba28
       806f6a2321293b9e939f05334a08e1517becb5
       a8f93d44d4f6338ed6ac4bdb271297b091585f
+      b2edfa33d5a2ca91e87feecaa3118454b7563d
     1f/
       2e1722292032ebf85a183822adc682c86df5c1
     21/
@@ -205,6 +206,7 @@ The content is organized as follows:
       61b6be03eb733cf23ad7e5482d3b13b0fd3481
       7c257ab7aa85adf9f91b19adb06ef629fa47c6
     27/
+      224dfd3072c67663052b08b89f16eb09d7f4a7
       523e34ddb05a27abe0f39143d868c90b7f9ae0
       59f7fb1ee106afa08e1ce0ca844472902b7cb7
       fbbdac4c457b3aff66634777e85108fd7e7dbd
@@ -251,6 +253,7 @@ The content is organized as follows:
     31/
       0decbd8d4321fb5cb1420c8cb3ba449fec9bd0
       19d1971ec15c8ec538a4b542829febca6a329d
+      42f4b15c70eeb8f5bcf60496218005c9e3d50f
       8596590fc31a4894362477da9b5319df195d04
       b8889215d285071b25b3b32faa853a689adcb5
       cca0fc2d9030c17748a5b0c5016965c4db8862
@@ -397,6 +400,7 @@ The content is organized as follows:
     59/
       55a9c64775da433b168b9be42920e039def139
       d0f0032684b54cd4aa3cd8758a5b304534268d
+      e5792512341c44c3b12c51c91a5bc4e8ecd129
     5a/
       22b8d34c8e636f8ad898695b7ae9538e433902
       80f8dc1364660276700ca7abc5600fde1fe4be
@@ -478,6 +482,7 @@ The content is organized as follows:
       55f09fa842dffb127f2706ed17a09d1ab1ede4
       80615645b17df1e5bae89faf6c31398dab3a0e
     76/
+      c00f870c359b739fb30588265004b70707db9d
       c593b09bcf8a424b3a9e114e346e29f88d9f87
       c7fc660d27a944522a3ce42f2261f65f15b8aa
       da30b626fe2a99f0255525f68a7c85febbc491
@@ -633,6 +638,8 @@ The content is organized as follows:
       3df8bfb47301c83b1f8ad8ddf92b7fe11a5e57
       f2b358e9d2363f0ae7688371da3002f5ebcf08
       fbb89b1142c99702689ed53a3b9405ff06f219
+    a3/
+      9e0713c1dd5085e36ed0810aaeecf8cf48e4de
     a4/
       14303781bdf699aeba958d56e1c30b56f34e22
       164b6d3e6f0da91af6a24ee2a808eac6d8b58e
@@ -959,6 +966,7 @@ The content is organized as follows:
     f8/
       e782f5fc524f8b8208501172b8ae983f336649
     f9/
+      23a7091102ab69826842d8a71d1a72418b4f0a
       4a69cfe2313724b3b908953fd23b52fcdd2219
       86123a1e8a451af4f919565c9bdf46dc045e02
       9595d84aa88b9255bb194e787ab7749d1ff8f4
@@ -2072,6 +2080,7 @@ a77270fea83437f4fdf79f07b144826099463d64 3119d1971ec15c8ec538a4b542829febca6a329
 49e224bb95532603c36d9dd25c995263b6c52ea3 574c0b785c2a938ac9b8d8e3918e15db4773ac7c 4bizdeveloper <4bizdeveloper@gmail.com> 1792855550 +0530	commit: Add root gitignore and fix catalyst slate config
 574c0b785c2a938ac9b8d8e3918e15db4773ac7c bdf971616948b9b2be8ff3471ef343f4b02f7412 4bizdeveloper <4bizdeveloper@gmail.com> 1792855753 +0530	commit: Fix Catalyst build by skipping root and targeting frontend
 bdf971616948b9b2be8ff3471ef343f4b02f7412 7bb6ef11c8491cacd7c6497f6c5efc36cd531661 4bizdeveloper <4bizdeveloper@gmail.com> 1792855875 +0530	commit: Force root build to build frontend and copy to dist
+7bb6ef11c8491cacd7c6497f6c5efc36cd531661 59e5792512341c44c3b12c51c91a5bc4e8ecd129 4bizdeveloper <4bizdeveloper@gmail.com> 1792856577 +0530	commit: today
 </file>
 
 <file path=".git/logs/refs/remotes/origin/main">
@@ -2086,6 +2095,7 @@ a77270fea83437f4fdf79f07b144826099463d64 3119d1971ec15c8ec538a4b542829febca6a329
 49e224bb95532603c36d9dd25c995263b6c52ea3 574c0b785c2a938ac9b8d8e3918e15db4773ac7c 4bizdeveloper <4bizdeveloper@gmail.com> 1792855556 +0530	update by push
 574c0b785c2a938ac9b8d8e3918e15db4773ac7c bdf971616948b9b2be8ff3471ef343f4b02f7412 4bizdeveloper <4bizdeveloper@gmail.com> 1792855793 +0530	update by push
 bdf971616948b9b2be8ff3471ef343f4b02f7412 7bb6ef11c8491cacd7c6497f6c5efc36cd531661 4bizdeveloper <4bizdeveloper@gmail.com> 1792855882 +0530	update by push
+7bb6ef11c8491cacd7c6497f6c5efc36cd531661 59e5792512341c44c3b12c51c91a5bc4e8ecd129 4bizdeveloper <4bizdeveloper@gmail.com> 1792856589 +0530	update by push
 </file>
 
 <file path=".git/logs/HEAD">
@@ -2102,6 +2112,7 @@ a77270fea83437f4fdf79f07b144826099463d64 3119d1971ec15c8ec538a4b542829febca6a329
 49e224bb95532603c36d9dd25c995263b6c52ea3 574c0b785c2a938ac9b8d8e3918e15db4773ac7c 4bizdeveloper <4bizdeveloper@gmail.com> 1792855550 +0530	commit: Add root gitignore and fix catalyst slate config
 574c0b785c2a938ac9b8d8e3918e15db4773ac7c bdf971616948b9b2be8ff3471ef343f4b02f7412 4bizdeveloper <4bizdeveloper@gmail.com> 1792855753 +0530	commit: Fix Catalyst build by skipping root and targeting frontend
 bdf971616948b9b2be8ff3471ef343f4b02f7412 7bb6ef11c8491cacd7c6497f6c5efc36cd531661 4bizdeveloper <4bizdeveloper@gmail.com> 1792855875 +0530	commit: Force root build to build frontend and copy to dist
+7bb6ef11c8491cacd7c6497f6c5efc36cd531661 59e5792512341c44c3b12c51c91a5bc4e8ecd129 4bizdeveloper <4bizdeveloper@gmail.com> 1792856577 +0530	commit: today
 </file>
 
 <file path=".git/objects/info/packs">
@@ -2109,15 +2120,15 @@ P pack-622939043752e476c1758a31df31ffb080ac598c.pack
 </file>
 
 <file path=".git/refs/heads/main">
-7bb6ef11c8491cacd7c6497f6c5efc36cd531661
+59e5792512341c44c3b12c51c91a5bc4e8ecd129
 </file>
 
 <file path=".git/refs/remotes/origin/main">
-7bb6ef11c8491cacd7c6497f6c5efc36cd531661
+59e5792512341c44c3b12c51c91a5bc4e8ecd129
 </file>
 
 <file path=".git/COMMIT_EDITMSG">
-Force root build to build frontend and copy to dist
+today
 </file>
 
 <file path=".git/config">
@@ -6329,15 +6340,14 @@ import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { prisma } from '../config/db';
 
-// ============================================================================
-// STUDY NOTE: Authentication & Authorization Flow
-// 1. Password Hash using bcryptjs (Salt factor 10) ensures secure password storage.
-// 2. JWT (JSON Web Tokens) generates signed stateless authentication keys.
-// ============================================================================
-
 export const register = async (req: Request, res: Response): Promise<void> => {
   try {
     const { name, email, password } = req.body;
+
+    if (!name || !email || !password) {
+      res.status(400).json({ message: 'Please provide all required fields' });
+      return;
+    }
 
     const existingUser = await prisma.user.findUnique({ where: { email } });
     if (existingUser) {
@@ -6356,8 +6366,12 @@ export const register = async (req: Request, res: Response): Promise<void> => {
     });
 
     res.status(201).json({ message: 'User registered successfully', userId: user.id });
-  } catch (error) {
-    res.status(500).json({ message: 'Server Error during Registration', error });
+  } catch (error: any) {
+    console.error("Registration Error:", error); // Log the exact error to your terminal
+    res.status(500).json({ 
+      message: 'Server Error during Registration', 
+      error: error.message // Send only the error message, not the whole object
+    });
   }
 };
 
@@ -6392,8 +6406,9 @@ export const login = async (req: Request, res: Response): Promise<void> => {
         role: user.role,
       },
     });
-  } catch (error) {
-    res.status(500).json({ message: 'Server Error during Login', error });
+  } catch (error: any) {
+    console.error("Login Error:", error);
+    res.status(500).json({ message: 'Server Error during Login', error: error.message });
   }
 };
 </file>
@@ -6546,7 +6561,12 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors());
+// Allow requests from your frontend (Vite default is 5173)
+app.use(cors({
+  origin: ['http://localhost:5173', 'http://localhost:3000'],
+  credentials: true
+}));
+
 app.use(express.json());
 
 // API Routes
@@ -6565,16 +6585,6 @@ app.listen(PORT, () => {
 });
 
 export default app;
-</file>
-
-<file path="backend/prisma.config.ts">
-import { definePrismaConfig } from "prisma/config";
-
-export default definePrismaConfig({
-  skills: {
-    agents: ["claude", "cursor", "agents", "devin"],
-  },
-});
 </file>
 
 <file path="frontend/public/favicon.svg">
@@ -7157,15 +7167,33 @@ export const Register: React.FC = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const [isLoading, setIsLoading] = useState(false); // Added loading state
   const navigate = useNavigate();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setError('');
+    setIsLoading(true);
+
     try {
       await axiosInstance.post('/auth/register', { name, email, password });
       navigate('/login');
     } catch (err: any) {
-      setError(err.response?.data?.message || 'Registration failed');
+      console.error("Registration Error:", err);
+      
+      // Better error extraction
+      if (err.response) {
+        // The backend responded with an error (e.g., 400, 500)
+        setError(err.response.data?.message || `Server Error: ${err.response.status}`);
+      } else if (err.request) {
+        // The request was made but no response was received (Backend is down or CORS issue)
+        setError('Cannot connect to the backend server. Is it running?');
+      } else {
+        // Something else happened
+        setError(err.message || 'Registration failed');
+      }
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -7176,7 +7204,7 @@ export const Register: React.FC = () => {
         <p className="text-slate-400 text-center text-sm mb-6">Start managing customers for free</p>
 
         {error && (
-          <div className="bg-red-500/10 border border-red-500/20 text-red-400 px-4 py-3 rounded-xl text-sm mb-5 text-center font-medium">
+          <div className="bg-red-500/10 border border-red-500/20 text-red-400 px-4 py-3 rounded-xl text-sm mb-5 text-center font-medium break-words">
             {error}
           </div>
         )}
@@ -7229,9 +7257,10 @@ export const Register: React.FC = () => {
 
           <button
             type="submit"
-            className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-medium py-3 rounded-xl transition-all flex items-center justify-center gap-2 shadow-lg shadow-blue-600/30 active:scale-[0.98]"
+            disabled={isLoading}
+            className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-medium py-3 rounded-xl transition-all flex items-center justify-center gap-2 shadow-lg shadow-blue-600/30 active:scale-[0.98] disabled:opacity-50"
           >
-            Create Account <ArrowRight size={18} />
+            {isLoading ? 'Creating...' : 'Create Account'} <ArrowRight size={18} />
           </button>
         </form>
 
@@ -7789,6 +7818,15 @@ yarn-error.log*
 }
 </file>
 
+<file path="backend/prisma.config.ts">
+import "dotenv/config";
+import { defineConfig } from "prisma/config";
+
+export default defineConfig({
+  schema: "prisma/schema.prisma",
+});
+</file>
+
 <file path="backend/tsconfig.json">
 {
   "compilerOptions": {
@@ -7836,22 +7874,6 @@ yarn-error.log*
 }
 </file>
 
-<file path="backend/package.json">
-{
-  "name": "crm-mern-1-backend",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "build:ts": "npx tsc -p tsconfig.json",
-    "build": "npm run build:ts",
-    "start": "node dist/app.js"
-  },
-  "devDependencies": {
-    "typescript": "^5.0.0"
-  }
-}
-</file>
-
 <file path="catalyst.json">
 {
   "slate": [
@@ -7862,6 +7884,40 @@ yarn-error.log*
       "buildPath": "frontend/dist"
     }
   ]
+}
+</file>
+
+<file path="backend/package.json">
+{
+  "name": "crm-mern-1-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/app.ts",
+    "build:ts": "npx tsc -p tsconfig.json",
+    "build": "npm run build:ts",
+    "start": "node dist/app.js",
+    "prisma:generate": "prisma generate",
+    "prisma:push": "prisma db push"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.10.2",
+    "prisma": "^6.1.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
 }
 </file>
 

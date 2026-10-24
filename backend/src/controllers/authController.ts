@@ -3,15 +3,14 @@ import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { prisma } from '../config/db';
 
-// ============================================================================
-// STUDY NOTE: Authentication & Authorization Flow
-// 1. Password Hash using bcryptjs (Salt factor 10) ensures secure password storage.
-// 2. JWT (JSON Web Tokens) generates signed stateless authentication keys.
-// ============================================================================
-
 export const register = async (req: Request, res: Response): Promise<void> => {
   try {
     const { name, email, password } = req.body;
+
+    if (!name || !email || !password) {
+      res.status(400).json({ message: 'Please provide all required fields' });
+      return;
+    }
 
     const existingUser = await prisma.user.findUnique({ where: { email } });
     if (existingUser) {
@@ -30,8 +29,12 @@ export const register = async (req: Request, res: Response): Promise<void> => {
     });
 
     res.status(201).json({ message: 'User registered successfully', userId: user.id });
-  } catch (error) {
-    res.status(500).json({ message: 'Server Error during Registration', error });
+  } catch (error: any) {
+    console.error("Registration Error:", error); // Log the exact error to your terminal
+    res.status(500).json({ 
+      message: 'Server Error during Registration', 
+      error: error.message // Send only the error message, not the whole object
+    });
   }
 };
 
@@ -66,7 +69,8 @@ export const login = async (req: Request, res: Response): Promise<void> => {
         role: user.role,
       },
     });
-  } catch (error) {
-    res.status(500).json({ message: 'Server Error during Login', error });
+  } catch (error: any) {
+    console.error("Login Error:", error);
+    res.status(500).json({ message: 'Server Error during Login', error: error.message });
   }
 };

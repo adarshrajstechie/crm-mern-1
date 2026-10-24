@@ -8,15 +8,35 @@ export const Register: React.FC = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setError('');
+    setIsLoading(true);
+
     try {
-      await axiosInstance.post('/auth/register', { name, email, password });
+      // Added a 10-second timeout so it doesn't spin forever if the DB is hanging
+      await axiosInstance.post('/auth/register', 
+        { name, email, password }, 
+        { timeout: 10000 } 
+      );
       navigate('/login');
     } catch (err: any) {
-      setError(err.response?.data?.message || 'Registration failed');
+      console.error("Registration Error Details:", err);
+      
+      if (err.code === 'ECONNABORTED') {
+        setError('Request timed out. The database might be unreachable or hanging.');
+      } else if (err.response) {
+        setError(err.response.data?.message || `Server Error: ${err.response.status}`);
+      } else if (err.request) {
+        setError('Cannot connect to the backend server. Is it running?');
+      } else {
+        setError(err.message || 'Registration failed');
+      }
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -27,7 +47,7 @@ export const Register: React.FC = () => {
         <p className="text-slate-400 text-center text-sm mb-6">Start managing customers for free</p>
 
         {error && (
-          <div className="bg-red-500/10 border border-red-500/20 text-red-400 px-4 py-3 rounded-xl text-sm mb-5 text-center font-medium">
+          <div className="bg-red-500/10 border border-red-500/20 text-red-400 px-4 py-3 rounded-xl text-sm mb-5 text-center font-medium break-words">
             {error}
           </div>
         )}
@@ -80,9 +100,10 @@ export const Register: React.FC = () => {
 
           <button
             type="submit"
-            className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-medium py-3 rounded-xl transition-all flex items-center justify-center gap-2 shadow-lg shadow-blue-600/30 active:scale-[0.98]"
+            disabled={isLoading}
+            className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-medium py-3 rounded-xl transition-all flex items-center justify-center gap-2 shadow-lg shadow-blue-600/30 active:scale-[0.98] disabled:opacity-50"
           >
-            Create Account <ArrowRight size={18} />
+            {isLoading ? 'Connecting to database...' : 'Create Account'} <ArrowRight size={18} />
           </button>
         </form>
 
