@@ -1,28 +1,14 @@
 {
-  "name": "crm-backend",
+  "name": "crm-mern-1",
   "version": "1.0.0",
-  "main": "dist/app.js",
+  "private": true,
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
-    "build": "tsc && npx prisma generate",
-    "start": "node dist/app.js"
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix backend && npm run build --prefix frontend",
+    "start": "node backend/dist/app.js"
   },
   "devDependencies": {
-    "@types/bcryptjs": "^2.4.6",
-    "@types/cors": "^2.8.19",
-    "@types/express": "^5.0.0",
-    "@types/jsonwebtoken": "^9.0.7",
-    "@types/node": "^20.11.0",
-    "prisma": "^5.22.0",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^5.3.3"
-  },
-  "dependencies": {
-    "@prisma/client": "^5.22.0",
-    "bcryptjs": "^2.4.3",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.18.3",
-    "jsonwebtoken": "^9.0.2"
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.31",
+    "tailwindcss": "^4.3.3"
   }
 }
