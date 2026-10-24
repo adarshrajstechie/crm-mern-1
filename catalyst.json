@@ -1,0 +1,10 @@
+{
+  "slate": [
+    {
+      "name": "your-slate-app-name",
+      "source": "frontend",
+      "build": "npm install && npm run build",
+      "buildPath": "dist"
+    }
+  ]
+}
