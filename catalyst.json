@@ -4,8 +4,7 @@
       "name": "crm-mern-1",
       "source": "frontend",
       "build": "cd frontend && npm install && npm run build",
-      "buildPath": "frontend/dist",
-      "install": "cd frontend && npm install"
+      "buildPath": "frontend/dist"
     }
   ]
 }
