@@ -9,9 +9,10 @@ dotenv.config();
 
 const app = express();
 
+// Allow requests from any origin or your local dev server
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:3000', 'http://localhost:5174'],
-  credentials: true
+  origin: true,
+  credentials: true,
 }));
 
 app.use(express.json());
@@ -31,10 +32,10 @@ app.get('/health', async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = Number(process.env.PORT) || 5000;
 
-app.listen(PORT, async () => {
-  console.log(`⚡ Server running on http://localhost:${PORT}`);
+app.listen(PORT, '0.0.0.0', async () => {
+  console.log(`⚡ Server running on port ${PORT}`);
   
   // Test database connection on startup
   try {

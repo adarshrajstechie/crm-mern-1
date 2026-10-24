@@ -146,6 +146,7 @@ The content is organized as follows:
       3ee9bee237bf8de8e638caecd0465a9981d0c2
       b585ff902556940a389e8925b4d983fb99c636
     14/
+      e270963be1d3906924e20a5438e75c9fc199a2
       edad4d18609bc546c2cf15fb41b57d8e1e6cdd
     15/
       c9d371ecac8537407d44175290ba37b175b8b7
@@ -158,6 +159,7 @@ The content is organized as follows:
     18/
       5eab34a919f0a6264720c64bd2c6badfc6e8d8
       641d3f21fa64b78c6a5c77dcb08a28bf08f814
+      899106b5fd9d2198076e5131d81eee40970158
       c7730bdd30cb5a0d40bfa974bc7bf2e4a06cf2
     19/
       68abe2ebf6f42f6c92067b5cf8bd248d3f88bd
@@ -167,6 +169,7 @@ The content is organized as follows:
     1b/
       923267e2b3fe6b66117a91bea524c41ae6b2fc
       b4a6045ca14fdba0aa2e4ea439ae162c5f9fc2
+      c76e416eda3b2c182b18d880f06e81d26ab6cf
     1c/
       27dc2e765f159e9192f96e00e9e115bea619c1
       bea18ddb2b91ac9bd443126606f86d6c498361
@@ -196,6 +199,7 @@ The content is organized as follows:
       d160bcaf6823747828e918ee87f7bc103cab94
     24/
       0abde01e6f6bf443c513d96e9da94679e75adf
+      ad2e83683de06db1921408b0a224d2e0f30d20
       b0cda77a984dfdec55da5d526fcb29504b7781
     25/
       5b0c328c1c65e4ce76d14ab875e8680828f8c2
@@ -286,6 +290,7 @@ The content is organized as follows:
     39/
       525b1e0c65ab90684a909cb12a59f97ae30165
       6bcddfdd12d4e7d49ab397dbcbd9887a94d657
+      6cb6ddfb18dfa04311f4fc9b7c37cec3525a3e
     3a/
       40c370b86911974bf1ba1708b6ae6533f672d6
       75ee43354ba3405de877d8759620436bb0ea5d
@@ -363,6 +368,7 @@ The content is organized as follows:
       25007ec31de9fc1f60e73ee710ec702fb9b65b
     50/
       0cdbad962b2291f9bd1306cde57e0957b55016
+      5089ae2a375f9cc16b917a5794968d2295c7c3
       6b90c56c7339c1aa45aa5fb2e40387393c2b9f
       c4ef217a36c1617e0b31b78019e4d951e8fdb1
     51/
@@ -435,6 +441,7 @@ The content is organized as follows:
     66/
       284b39c4a88d0f49f700e7b24d3c3d11a99c73
       6e3c0fd04c947633fd24b76d8235c857224f0b
+      8cf01b34c1ba331dea8b36a254354e7b43d238
     67/
       4a0adf01b6b0360698ef15aaf3f914be2f2adf
     69/
@@ -610,6 +617,7 @@ The content is organized as follows:
       1908a17de16ce1b63fc22ba5b2c85236b2b4ba
       23467a74a53a30e5ed0102b2960b3c22e12bcd
       32584813bf5e377d84cac7bdf2cd56766572aa
+      be5a0385d19a1e5233c00407f685b230c205bd
     9d/
       88f5aaf22314544ef5068de1aead97cc9a6bfd
       961fc57cac4a46459b368dca3bc0c6987a66e1
@@ -651,6 +659,7 @@ The content is organized as follows:
       718f2a13df80b83273828c7bf90774098fc5d0
       87a13a19bdd9d86a891d9c1aef3d1c48cd65dd
       9b2362d17e74c0d59d33c540b41fdb6c3c8f54
+      d227bcb797fc403a3b1df35acbb99d6095b348
       f51a6f69d0602b3b01cc3057cb7414b6aa1de7
     a6/
       31ad0447f6c327bca3499c1368b2074fe325ec
@@ -698,6 +707,7 @@ The content is organized as follows:
       81763fc9b7687c6fb53936c1e9549a22696f42
       b0496a0cac593f66983da73710227629630c7a
     b2/
+      484a3a71d19fa6b03507b3f37d6d5c2bb03e3a
       8406b1acdd5680973c5a56efa47d40ecb13bc5
     b3/
       e924df5e12452a5fea056d31dda83b2d844fc2
@@ -731,6 +741,7 @@ The content is organized as follows:
       f087da44ef851a8595186e0b06629e2170b084
     bb/
       10503e66595ca55e44d1a048e7c8bdd4a42605
+      d17dd16003a804ba5be6e6e9bb4c5177dfe54a
       d564f8a37ec64f273ade7a5840df110aa275de
       fa4db650073f890b4f851819ff4c377ca2c55e
     bc/
@@ -792,6 +803,7 @@ The content is organized as follows:
       55add440703506167b5ee306064d4d4dd7fc04
       8b3fce93b6ce25298416f01829e6506a8a6333
       a5e2e9a6551c02ea7ad51d82c4e1fb719dea76
+      ce2154a75595146787e5854486a16a8779d33c
     ca/
       36f5e1d4673691c4a01df3a1c2af83ac2dafa8
       b6cceff27ac348dc5fde897d569b0388993955
@@ -1080,6 +1092,7 @@ frontend/
     index.css
     main.tsx
     vite-env.d.ts
+  .env
   .gitignore
   .oxlintrc.json
   index.html
@@ -2081,6 +2094,7 @@ a77270fea83437f4fdf79f07b144826099463d64 3119d1971ec15c8ec538a4b542829febca6a329
 574c0b785c2a938ac9b8d8e3918e15db4773ac7c bdf971616948b9b2be8ff3471ef343f4b02f7412 4bizdeveloper <4bizdeveloper@gmail.com> 1792855753 +0530	commit: Fix Catalyst build by skipping root and targeting frontend
 bdf971616948b9b2be8ff3471ef343f4b02f7412 7bb6ef11c8491cacd7c6497f6c5efc36cd531661 4bizdeveloper <4bizdeveloper@gmail.com> 1792855875 +0530	commit: Force root build to build frontend and copy to dist
 7bb6ef11c8491cacd7c6497f6c5efc36cd531661 59e5792512341c44c3b12c51c91a5bc4e8ecd129 4bizdeveloper <4bizdeveloper@gmail.com> 1792856577 +0530	commit: today
+59e5792512341c44c3b12c51c91a5bc4e8ecd129 24ad2e83683de06db1921408b0a224d2e0f30d20 4bizdeveloper <4bizdeveloper@gmail.com> 1792857112 +0530	commit: today
 </file>
 
 <file path=".git/logs/refs/remotes/origin/main">
@@ -2096,6 +2110,7 @@ a77270fea83437f4fdf79f07b144826099463d64 3119d1971ec15c8ec538a4b542829febca6a329
 574c0b785c2a938ac9b8d8e3918e15db4773ac7c bdf971616948b9b2be8ff3471ef343f4b02f7412 4bizdeveloper <4bizdeveloper@gmail.com> 1792855793 +0530	update by push
 bdf971616948b9b2be8ff3471ef343f4b02f7412 7bb6ef11c8491cacd7c6497f6c5efc36cd531661 4bizdeveloper <4bizdeveloper@gmail.com> 1792855882 +0530	update by push
 7bb6ef11c8491cacd7c6497f6c5efc36cd531661 59e5792512341c44c3b12c51c91a5bc4e8ecd129 4bizdeveloper <4bizdeveloper@gmail.com> 1792856589 +0530	update by push
+59e5792512341c44c3b12c51c91a5bc4e8ecd129 24ad2e83683de06db1921408b0a224d2e0f30d20 4bizdeveloper <4bizdeveloper@gmail.com> 1792857121 +0530	update by push
 </file>
 
 <file path=".git/logs/HEAD">
@@ -2113,6 +2128,7 @@ a77270fea83437f4fdf79f07b144826099463d64 3119d1971ec15c8ec538a4b542829febca6a329
 574c0b785c2a938ac9b8d8e3918e15db4773ac7c bdf971616948b9b2be8ff3471ef343f4b02f7412 4bizdeveloper <4bizdeveloper@gmail.com> 1792855753 +0530	commit: Fix Catalyst build by skipping root and targeting frontend
 bdf971616948b9b2be8ff3471ef343f4b02f7412 7bb6ef11c8491cacd7c6497f6c5efc36cd531661 4bizdeveloper <4bizdeveloper@gmail.com> 1792855875 +0530	commit: Force root build to build frontend and copy to dist
 7bb6ef11c8491cacd7c6497f6c5efc36cd531661 59e5792512341c44c3b12c51c91a5bc4e8ecd129 4bizdeveloper <4bizdeveloper@gmail.com> 1792856577 +0530	commit: today
+59e5792512341c44c3b12c51c91a5bc4e8ecd129 24ad2e83683de06db1921408b0a224d2e0f30d20 4bizdeveloper <4bizdeveloper@gmail.com> 1792857112 +0530	commit: today
 </file>
 
 <file path=".git/objects/info/packs">
@@ -2120,11 +2136,11 @@ P pack-622939043752e476c1758a31df31ffb080ac598c.pack
 </file>
 
 <file path=".git/refs/heads/main">
-59e5792512341c44c3b12c51c91a5bc4e8ecd129
+24ad2e83683de06db1921408b0a224d2e0f30d20
 </file>
 
 <file path=".git/refs/remotes/origin/main">
-59e5792512341c44c3b12c51c91a5bc4e8ecd129
+24ad2e83683de06db1921408b0a224d2e0f30d20
 </file>
 
 <file path=".git/COMMIT_EDITMSG">
@@ -2153,6 +2169,10 @@ Unnamed repository; edit this file 'description' to name the repository.
 
 <file path=".git/HEAD">
 ref: refs/heads/main
+</file>
+
+<file path="frontend/.env">
+VITE_API_URL="https://crm-mern-1-c509.onrender.com/api"
 </file>
 
 <file path="backend/.agents/skills/prisma-composer-core-concepts/SKILL.md">
@@ -6334,85 +6354,6 @@ import { PrismaClient } from '@prisma/client';
 export const prisma = new PrismaClient();
 </file>
 
-<file path="backend/src/controllers/authController.ts">
-import { Request, Response } from 'express';
-import bcrypt from 'bcryptjs';
-import jwt from 'jsonwebtoken';
-import { prisma } from '../config/db';
-
-export const register = async (req: Request, res: Response): Promise<void> => {
-  try {
-    const { name, email, password } = req.body;
-
-    if (!name || !email || !password) {
-      res.status(400).json({ message: 'Please provide all required fields' });
-      return;
-    }
-
-    const existingUser = await prisma.user.findUnique({ where: { email } });
-    if (existingUser) {
-      res.status(400).json({ message: 'User already exists with this email' });
-      return;
-    }
-
-    const hashedPassword = await bcrypt.hash(password, 10);
-
-    const user = await prisma.user.create({
-      data: {
-        name,
-        email,
-        password: hashedPassword,
-      },
-    });
-
-    res.status(201).json({ message: 'User registered successfully', userId: user.id });
-  } catch (error: any) {
-    console.error("Registration Error:", error); // Log the exact error to your terminal
-    res.status(500).json({ 
-      message: 'Server Error during Registration', 
-      error: error.message // Send only the error message, not the whole object
-    });
-  }
-};
-
-export const login = async (req: Request, res: Response): Promise<void> => {
-  try {
-    const { email, password } = req.body;
-
-    const user = await prisma.user.findUnique({ where: { email } });
-    if (!user) {
-      res.status(400).json({ message: 'Invalid email or password' });
-      return;
-    }
-
-    const isMatch = await bcrypt.compare(password, user.password);
-    if (!isMatch) {
-      res.status(400).json({ message: 'Invalid email or password' });
-      return;
-    }
-
-    const token = jwt.sign(
-      { userId: user.id, role: user.role },
-      process.env.JWT_SECRET || 'fallback_secret',
-      { expiresIn: '24h' }
-    );
-
-    res.status(200).json({
-      token,
-      user: {
-        id: user.id,
-        name: user.name,
-        email: user.email,
-        role: user.role,
-      },
-    });
-  } catch (error: any) {
-    console.error("Login Error:", error);
-    res.status(500).json({ message: 'Server Error during Login', error: error.message });
-  }
-};
-</file>
-
 <file path="backend/src/controllers/customerController.ts">
 import { Response } from 'express';
 import { prisma } from '../config/db';
@@ -6548,43 +6489,6 @@ router.put('/:id', updateCustomer as any);
 router.delete('/:id', deleteCustomer as any);
 
 export default router;
-</file>
-
-<file path="backend/src/app.ts">
-import express from 'express';
-import cors from 'cors';
-import dotenv from 'dotenv';
-import authRoutes from './routes/authRoutes';
-import customerRoutes from './routes/customerRoutes';
-
-dotenv.config();
-
-const app = express();
-
-// Allow requests from your frontend (Vite default is 5173)
-app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:3000'],
-  credentials: true
-}));
-
-app.use(express.json());
-
-// API Routes
-app.use('/api/auth', authRoutes);
-app.use('/api/customers', customerRoutes);
-
-// Health check endpoint
-app.get('/health', (req, res) => {
-  res.status(200).json({ status: 'OK', timestamp: new Date().toISOString() });
-});
-
-const PORT = process.env.PORT || 5000;
-
-app.listen(PORT, () => {
-  console.log(`⚡ Server running on http://localhost:${PORT}`);
-});
-
-export default app;
 </file>
 
 <file path="frontend/public/favicon.svg">
@@ -7156,126 +7060,6 @@ export const Login: React.FC = () => {
 };
 </file>
 
-<file path="frontend/src/pages/Register.tsx">
-import React, { useState } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
-import axiosInstance from '@/api/axiosInstance';
-import { User, Mail, Lock, ArrowRight } from 'lucide-react';
-
-export const Register: React.FC = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [error, setError] = useState('');
-  const [isLoading, setIsLoading] = useState(false); // Added loading state
-  const navigate = useNavigate();
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setError('');
-    setIsLoading(true);
-
-    try {
-      await axiosInstance.post('/auth/register', { name, email, password });
-      navigate('/login');
-    } catch (err: any) {
-      console.error("Registration Error:", err);
-      
-      // Better error extraction
-      if (err.response) {
-        // The backend responded with an error (e.g., 400, 500)
-        setError(err.response.data?.message || `Server Error: ${err.response.status}`);
-      } else if (err.request) {
-        // The request was made but no response was received (Backend is down or CORS issue)
-        setError('Cannot connect to the backend server. Is it running?');
-      } else {
-        // Something else happened
-        setError(err.message || 'Registration failed');
-      }
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  return (
-    <div className="min-h-[90vh] flex items-center justify-center px-4 sm:px-6">
-      <div className="w-full max-w-md bg-slate-900/90 backdrop-blur-xl border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-2xl shadow-blue-500/5">
-        <h2 className="text-2xl sm:text-3xl font-extrabold text-center text-white mb-2 tracking-tight">Create Account</h2>
-        <p className="text-slate-400 text-center text-sm mb-6">Start managing customers for free</p>
-
-        {error && (
-          <div className="bg-red-500/10 border border-red-500/20 text-red-400 px-4 py-3 rounded-xl text-sm mb-5 text-center font-medium break-words">
-            {error}
-          </div>
-        )}
-
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <div>
-            <label className="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">Full Name</label>
-            <div className="relative">
-              <User className="absolute left-3.5 top-3.5 text-slate-500" size={18} />
-              <input
-                type="text"
-                required
-                className="w-full bg-slate-800/60 border border-slate-700/70 rounded-xl pl-11 pr-4 py-3 text-white text-sm focus:outline-none focus:border-blue-500 transition-all"
-                placeholder="John Doe"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-              />
-            </div>
-          </div>
-
-          <div>
-            <label className="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">Email</label>
-            <div className="relative">
-              <Mail className="absolute left-3.5 top-3.5 text-slate-500" size={18} />
-              <input
-                type="email"
-                required
-                className="w-full bg-slate-800/60 border border-slate-700/70 rounded-xl pl-11 pr-4 py-3 text-white text-sm focus:outline-none focus:border-blue-500 transition-all"
-                placeholder="you@company.com"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-              />
-            </div>
-          </div>
-
-          <div>
-            <label className="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">Password</label>
-            <div className="relative">
-              <Lock className="absolute left-3.5 top-3.5 text-slate-500" size={18} />
-              <input
-                type="password"
-                required
-                className="w-full bg-slate-800/60 border border-slate-700/70 rounded-xl pl-11 pr-4 py-3 text-white text-sm focus:outline-none focus:border-blue-500 transition-all"
-                placeholder="••••••••"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-              />
-            </div>
-          </div>
-
-          <button
-            type="submit"
-            disabled={isLoading}
-            className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-medium py-3 rounded-xl transition-all flex items-center justify-center gap-2 shadow-lg shadow-blue-600/30 active:scale-[0.98] disabled:opacity-50"
-          >
-            {isLoading ? 'Creating...' : 'Create Account'} <ArrowRight size={18} />
-          </button>
-        </form>
-
-        <p className="text-center text-slate-400 text-sm mt-6">
-          Already have an account?{' '}
-          <Link to="/login" className="text-blue-400 hover:text-blue-300 font-medium underline">
-            Login
-          </Link>
-        </p>
-      </div>
-    </div>
-  );
-};
-</file>
-
 <file path="frontend/src/App.css">
 .counter {
   font-size: 16px;
@@ -7818,6 +7602,138 @@ yarn-error.log*
 }
 </file>
 
+<file path="backend/src/controllers/authController.ts">
+import { Request, Response } from 'express';
+import bcrypt from 'bcryptjs';
+import jwt from 'jsonwebtoken';
+import { prisma } from '../config/db';
+
+export const register = async (req: Request, res: Response): Promise<void> => {
+  try {
+    const { name, email, password } = req.body;
+
+    if (!name || !email || !password) {
+      res.status(400).json({ message: 'Please provide all required fields' });
+      return;
+    }
+
+    const existingUser = await prisma.user.findUnique({ where: { email } });
+    if (existingUser) {
+      res.status(400).json({ message: 'User already exists with this email' });
+      return;
+    }
+
+    const hashedPassword = await bcrypt.hash(password, 10);
+
+    const user = await prisma.user.create({
+      data: {
+        name,
+        email,
+        password: hashedPassword,
+      },
+    });
+
+    res.status(201).json({ message: 'User registered successfully', userId: user.id });
+  } catch (error: any) {
+    console.error("Registration Error:", error); // Log the exact error to your terminal
+    res.status(500).json({ 
+      message: 'Server Error during Registration', 
+      error: error.message // Send only the error message, not the whole object
+    });
+  }
+};
+
+export const login = async (req: Request, res: Response): Promise<void> => {
+  try {
+    const { email, password } = req.body;
+
+    const user = await prisma.user.findUnique({ where: { email } });
+    if (!user) {
+      res.status(400).json({ message: 'Invalid email or password' });
+      return;
+    }
+
+    const isMatch = await bcrypt.compare(password, user.password);
+    if (!isMatch) {
+      res.status(400).json({ message: 'Invalid email or password' });
+      return;
+    }
+
+    const token = jwt.sign(
+      { userId: user.id, role: user.role },
+      process.env.JWT_SECRET || 'fallback_secret',
+      { expiresIn: '24h' }
+    );
+
+    res.status(200).json({
+      token,
+      user: {
+        id: user.id,
+        name: user.name,
+        email: user.email,
+        role: user.role,
+      },
+    });
+  } catch (error: any) {
+    console.error("Login Error:", error);
+    res.status(500).json({ message: 'Server Error during Login', error: error.message });
+  }
+};
+</file>
+
+<file path="backend/src/app.ts">
+import express from 'express';
+import cors from 'cors';
+import dotenv from 'dotenv';
+import authRoutes from './routes/authRoutes';
+import customerRoutes from './routes/customerRoutes';
+import { prisma } from './config/db'; // Import prisma to test connection
+
+dotenv.config();
+
+const app = express();
+
+app.use(cors({
+  origin: ['http://localhost:5173', 'http://localhost:3000', 'http://localhost:5174'],
+  credentials: true
+}));
+
+app.use(express.json());
+
+// API Routes
+app.use('/api/auth', authRoutes);
+app.use('/api/customers', customerRoutes);
+
+// Health check endpoint
+app.get('/health', async (req, res) => {
+  try {
+    // Try a quick query to verify DB connection
+    await prisma.$runCommandRaw({ ping: 1 });
+    res.status(200).json({ status: 'OK', database: 'Connected' });
+  } catch (error) {
+    res.status(500).json({ status: 'Error', database: 'Disconnected', details: error });
+  }
+});
+
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, async () => {
+  console.log(`⚡ Server running on http://localhost:${PORT}`);
+  
+  // Test database connection on startup
+  try {
+    await prisma.$connect();
+    console.log('✅ Successfully connected to MongoDB via Prisma');
+  } catch (error) {
+    console.error('❌ FATAL: Failed to connect to MongoDB.');
+    console.error('Check your .env DATABASE_URL and MongoDB Atlas IP Whitelist.');
+    console.error(error);
+  }
+});
+
+export default app;
+</file>
+
 <file path="backend/prisma.config.ts">
 import "dotenv/config";
 import { defineConfig } from "prisma/config";
@@ -7846,6 +7762,128 @@ export default defineConfig({
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
+</file>
+
+<file path="frontend/src/pages/Register.tsx">
+import React, { useState } from 'react';
+import { useNavigate, Link } from 'react-router-dom';
+import axiosInstance from '@/api/axiosInstance';
+import { User, Mail, Lock, ArrowRight } from 'lucide-react';
+
+export const Register: React.FC = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
+  const navigate = useNavigate();
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setError('');
+    setIsLoading(true);
+
+    try {
+      // Added a 10-second timeout so it doesn't spin forever if the DB is hanging
+      await axiosInstance.post('/auth/register', 
+        { name, email, password }, 
+        { timeout: 10000 } 
+      );
+      navigate('/login');
+    } catch (err: any) {
+      console.error("Registration Error Details:", err);
+      
+      if (err.code === 'ECONNABORTED') {
+        setError('Request timed out. The database might be unreachable or hanging.');
+      } else if (err.response) {
+        setError(err.response.data?.message || `Server Error: ${err.response.status}`);
+      } else if (err.request) {
+        setError('Cannot connect to the backend server. Is it running?');
+      } else {
+        setError(err.message || 'Registration failed');
+      }
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  return (
+    <div className="min-h-[90vh] flex items-center justify-center px-4 sm:px-6">
+      <div className="w-full max-w-md bg-slate-900/90 backdrop-blur-xl border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-2xl shadow-blue-500/5">
+        <h2 className="text-2xl sm:text-3xl font-extrabold text-center text-white mb-2 tracking-tight">Create Account</h2>
+        <p className="text-slate-400 text-center text-sm mb-6">Start managing customers for free</p>
+
+        {error && (
+          <div className="bg-red-500/10 border border-red-500/20 text-red-400 px-4 py-3 rounded-xl text-sm mb-5 text-center font-medium break-words">
+            {error}
+          </div>
+        )}
+
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <div>
+            <label className="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">Full Name</label>
+            <div className="relative">
+              <User className="absolute left-3.5 top-3.5 text-slate-500" size={18} />
+              <input
+                type="text"
+                required
+                className="w-full bg-slate-800/60 border border-slate-700/70 rounded-xl pl-11 pr-4 py-3 text-white text-sm focus:outline-none focus:border-blue-500 transition-all"
+                placeholder="John Doe"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+              />
+            </div>
+          </div>
+
+          <div>
+            <label className="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">Email</label>
+            <div className="relative">
+              <Mail className="absolute left-3.5 top-3.5 text-slate-500" size={18} />
+              <input
+                type="email"
+                required
+                className="w-full bg-slate-800/60 border border-slate-700/70 rounded-xl pl-11 pr-4 py-3 text-white text-sm focus:outline-none focus:border-blue-500 transition-all"
+                placeholder="you@company.com"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+            </div>
+          </div>
+
+          <div>
+            <label className="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">Password</label>
+            <div className="relative">
+              <Lock className="absolute left-3.5 top-3.5 text-slate-500" size={18} />
+              <input
+                type="password"
+                required
+                className="w-full bg-slate-800/60 border border-slate-700/70 rounded-xl pl-11 pr-4 py-3 text-white text-sm focus:outline-none focus:border-blue-500 transition-all"
+                placeholder="••••••••"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />
+            </div>
+          </div>
+
+          <button
+            type="submit"
+            disabled={isLoading}
+            className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-medium py-3 rounded-xl transition-all flex items-center justify-center gap-2 shadow-lg shadow-blue-600/30 active:scale-[0.98] disabled:opacity-50"
+          >
+            {isLoading ? 'Connecting to database...' : 'Create Account'} <ArrowRight size={18} />
+          </button>
+        </form>
+
+        <p className="text-center text-slate-400 text-sm mt-6">
+          Already have an account?{' '}
+          <Link to="/login" className="text-blue-400 hover:text-blue-300 font-medium underline">
+            Login
+          </Link>
+        </p>
+      </div>
+    </div>
+  );
+};
 </file>
 
 <file path="frontend/tsconfig.json">
