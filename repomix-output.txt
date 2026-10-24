@@ -67,6 +67,16 @@ The content is organized as follows:
           main
     HEAD
   objects/
+    2c/
+      04ba6794cbdb9aa815534944c0436f8dc73f1a
+    3a/
+      9a0d8ec0ba2b6b60977bff95406610b2a822c6
+    4f/
+      25007ec31de9fc1f60e73ee710ec702fb9b65b
+    86/
+      87f2d4fa77fc387100816fb00cc946f18a7f50
+    e4/
+      09ab2a6b420dd54431bd01e96ef2b902281c28
     info/
       packs
     pack/
@@ -161,6 +171,7 @@ frontend/
   tsconfig.app.json
   tsconfig.json
   tsconfig.node.json
+  tsconfig.tsbuildinfo
   vite.config.ts
 package.json
 repomix.config.json
@@ -1139,16 +1150,19 @@ eb4a77078db7946f2b2c61c9159800b207e07317	refs/heads/master
 <file path=".git/logs/refs/heads/main">
 0000000000000000000000000000000000000000 eb4a77078db7946f2b2c61c9159800b207e07317 4bizdeveloper <4bizdeveloper@gmail.com> 1792851790 +0530	commit (initial): today
 eb4a77078db7946f2b2c61c9159800b207e07317 eb4a77078db7946f2b2c61c9159800b207e07317 4bizdeveloper <4bizdeveloper@gmail.com> 1792851804 +0530	Branch: renamed refs/heads/master to refs/heads/main
+eb4a77078db7946f2b2c61c9159800b207e07317 3a9a0d8ec0ba2b6b60977bff95406610b2a822c6 4bizdeveloper <4bizdeveloper@gmail.com> 1792854253 +0530	commit: today
 </file>
 
 <file path=".git/logs/refs/remotes/origin/main">
 0000000000000000000000000000000000000000 eb4a77078db7946f2b2c61c9159800b207e07317 4bizdeveloper <4bizdeveloper@gmail.com> 1792851847 +0530	update by push
+eb4a77078db7946f2b2c61c9159800b207e07317 3a9a0d8ec0ba2b6b60977bff95406610b2a822c6 4bizdeveloper <4bizdeveloper@gmail.com> 1792854262 +0530	update by push
 </file>
 
 <file path=".git/logs/HEAD">
 0000000000000000000000000000000000000000 eb4a77078db7946f2b2c61c9159800b207e07317 4bizdeveloper <4bizdeveloper@gmail.com> 1792851790 +0530	commit (initial): today
 eb4a77078db7946f2b2c61c9159800b207e07317 0000000000000000000000000000000000000000 4bizdeveloper <4bizdeveloper@gmail.com> 1792851804 +0530	Branch: renamed refs/heads/master to refs/heads/main
 0000000000000000000000000000000000000000 eb4a77078db7946f2b2c61c9159800b207e07317 4bizdeveloper <4bizdeveloper@gmail.com> 1792851804 +0530	Branch: renamed refs/heads/master to refs/heads/main
+eb4a77078db7946f2b2c61c9159800b207e07317 3a9a0d8ec0ba2b6b60977bff95406610b2a822c6 4bizdeveloper <4bizdeveloper@gmail.com> 1792854253 +0530	commit: today
 </file>
 
 <file path=".git/objects/info/packs">
@@ -1156,11 +1170,11 @@ P pack-622939043752e476c1758a31df31ffb080ac598c.pack
 </file>
 
 <file path=".git/refs/heads/main">
-eb4a77078db7946f2b2c61c9159800b207e07317
+3a9a0d8ec0ba2b6b60977bff95406610b2a822c6
 </file>
 
 <file path=".git/refs/remotes/origin/main">
-eb4a77078db7946f2b2c61c9159800b207e07317
+3a9a0d8ec0ba2b6b60977bff95406610b2a822c6
 </file>
 
 <file path=".git/COMMIT_EDITMSG">
@@ -1189,6 +1203,10 @@ Unnamed repository; edit this file 'description' to name the repository.
 
 <file path=".git/HEAD">
 ref: refs/heads/main
+</file>
+
+<file path="frontend/tsconfig.tsbuildinfo">
+{"root":["./src/app.tsx","./src/main.tsx","./src/api/axiosinstance.ts","./src/components/navbar.tsx","./src/components/protectedroute.tsx","./src/context/authcontext.tsx","./src/pages/dashboard.tsx","./src/pages/login.tsx","./src/pages/register.tsx"],"errors":true,"version":"6.0.3"}
 </file>
 
 <file path="backend/.agents/skills/prisma-composer-core-concepts/SKILL.md">
@@ -5614,37 +5632,6 @@ app.listen(PORT, () => {
 export default app;
 </file>
 
-<file path="backend/package.json">
-{
-  "name": "crm-backend",
-  "version": "1.0.0",
-  "main": "dist/app.js",
-  "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
-    "build": "tsc && npx prisma generate",
-    "start": "node dist/app.js"
-  },
-  "devDependencies": {
-    "@types/bcryptjs": "^2.4.6",
-    "@types/cors": "^2.8.19",
-    "@types/express": "^5.0.0",
-    "@types/jsonwebtoken": "^9.0.7",
-    "@types/node": "^20.11.0",
-    "prisma": "^5.22.0",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^5.3.3"
-  },
-  "dependencies": {
-    "@prisma/client": "^5.22.0",
-    "bcryptjs": "^2.4.3",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.18.3",
-    "jsonwebtoken": "^9.0.2"
-  }
-}
-</file>
-
 <file path="backend/prisma.config.ts">
 import { definePrismaConfig } from "prisma/config";
 
@@ -5666,9 +5653,13 @@ export default definePrismaConfig({
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declaration": false,
+    "sourceMap": true
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
 </file>
 
@@ -6852,6 +6843,18 @@ export default defineConfig({
 
 <file path="package.json">
 {
+  "name": "crm-mern-1-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && npm install --prefix backend && npm install --prefix frontend",
+    "build:backend": "npm run build:ts --prefix backend",
+    "build:frontend": "npm run build --prefix frontend",
+    "build": "npm run install:all && npm run build:backend && npm run build:frontend",
+    "start": "npm run start --prefix backend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend"
+  },
   "devDependencies": {
     "autoprefixer": "^10.6.1",
     "postcss": "^8.5.31",
@@ -6878,6 +6881,27 @@ export default defineConfig({
       "**/package-lock.json",
       "**/pnpm-lock.yaml"
     ]
+  }
+}
+</file>
+
+<file path="backend/package.json">
+{
+  "name": "crm-mern-1",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && npm install --prefix ../frontend",
+    "build:backend": "npm run build:ts",
+    "build:ts": "tsc -p tsconfig.json",
+    "build:frontend": "npm run build --prefix ../frontend",
+    "build": "npm run install:all && npm run build:backend && npm run build:frontend",
+    "start": "node dist/app.js"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.31",
+    "tailwindcss": "^4.3.3"
   }
 }
 </file>
